@@ -1,0 +1,428 @@
+	#gallery {
+		margin-left: auto;
+		margin-right: auto;
+	}
+body
+{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:19px;
+	background:url(images/bg_image.jpg) repeat-x;
+}
+
+.likeunlike
+{
+	text-decoration:none;
+}
+a.likeunlike:hover
+{
+	text-decoration:underline;
+}
+
+a:link {color:#0000FF;}      /* unvisited link */
+a:visited {color:#0000FF;}  /* visited link */
+a:hover {color:#D40000;}  /* mouse over link */
+a:active {color:#0000FF;}
+
+/*table1.tr,th,td
+{
+    border:0px;
+}*/
+#container
+{
+	width:980px;
+	height:auto;
+	margin:auto;
+}
+#header
+{
+	height:87px;
+}
+.left_header
+{
+	width:240px;
+	float:left;
+	height:77px;
+	margin-top:5px;
+}
+.right_header
+{
+	width:740px;
+	float:right;
+}
+.lfield 
+{
+	width: 163px;
+	height: 20px;
+	border: none;	
+	background: #fff;
+	border: 2px solid #e4bf77;
+	padding: 2px;
+	margin: 0 5px 0 0;
+	font-size: 12px;
+}
+.lbutton
+{
+	width: 85px;
+	height: 25px;
+	border: none;
+	background: #F0B722;
+	border: 1px solid #E29A2C;
+	margin: 0;
+        cursor: pointer;
+	vertical-align: middle;
+}
+#body
+{
+	height:540px;
+}
+.left_body
+{
+	height:540px;
+	width:460px;
+	float:left;
+    margin-top: 70px;
+}
+.right_body
+{
+	height:540px;
+	width:520px;
+	float:right;
+}
+.rfield 
+{
+	width: 220px;
+	height: 22px;
+	border: none;	
+	background: #fff;
+	border: 1px solid #006699;
+	padding: 2px;
+	margin: 0 5px 0 0;
+	font-size: 12px;
+}
+
+#footer
+{
+	width: 100%;
+	background: #f7a027;
+	padding: 10px 0;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: bold;
+        position: fixed;
+}
+.lbuttonr
+{
+	width: 100px;
+	height: 30px;
+	border: none;
+	background:url(images/login_btn.jpg);
+	color:#FFFFFF;
+	font-weight:bolder;
+	border: 1px solid #E29A2C;
+	margin: 0;
+	vertical-align: middle;
+	border-radius:12px;
+	cursor:pointer;
+}
+.serach
+{
+	width: 240px;
+	height: 25px;
+	border: none;	
+	background: #fff;
+	border: 1px solid #006699;
+	padding: 2px;
+	margin: 0 5px 0 0;
+	font-size: 14px;		
+}
+.lsearch
+{
+	width: 85px;
+	height: 30px;
+	border: none;
+	background: #F0B722;
+	border: 1px solid #E29A2C;
+	margin: 0;
+     cursor: pointer;
+	vertical-align: middle;
+}
+#hbody
+{
+	height:540px;
+}
+.hleft_body
+{
+	height:400px;
+	width:200px;
+	float:left;
+	background:#FFFFFF;
+}
+.hright_body
+{
+	height:400px;
+	width:780px;
+	float:right;
+	background:#FFFFFF;
+}
+.sidebar_section
+ {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	/*border-bottom: 2px solid #666;
+	border-bottom-width:medium;
+	border-bottom:medium;*/
+}
+ .category_list 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ .category_list li 
+{
+	margin: 0;
+	padding: 7px 0;
+}
+
+ .category_list li a 
+{
+	display: block;
+	padding: 0 0 0 30px;
+	text-decoration:none;
+	font-size: 12px;
+	font-weight: bold;
+	color:#609142;
+	background: url(images/sidebarimage.png) no-repeat center  left;
+}
+ .category_list li a:hover 
+{
+	color:#FF6600;
+	background-color:#CCCCCC;
+}
+#proceed
+{
+	background-image:url(images/login_btn.jpg);
+	
+}
+/*.ctable
+{
+    border:1px solid black;
+}
+.ctable th,td
+{
+  border:0px;
+}*/
+/********************User Home **********************/
+.userhome_header
+{
+	background:url(images/bg_image.jpg) repeat-x;
+	height:88px;
+	margin-left:0px;
+}
+#userhomeleftbody
+{
+	 width:180px;
+	float:left;
+}
+#userhomerbody
+{
+	
+	width:800px;
+	float:right;
+	
+}
+#ucleft
+{
+	border-left:solid 1px #999999;
+	border-left-width:medium;
+	border-right:solid 1px #999999;
+	border-right-width:medium;
+	width:630px;
+	float:left;
+}
+#ucright
+{
+	width:160px;
+	float:right;
+}
+#searchbox
+{
+    border-radius:8px;
+    height:25px;
+    background-color:#FFFFFF;
+	background-image:url(images/searchicon.png);
+	cursor:pointer;
+	background-repeat:no-repeat;
+	background-position:right;
+	font-size:17px;
+	font-family:Georgia, "Times New Roman", Times, serif;;
+}
+#suggestion
+{
+	position: absolute;
+	margin-left:400px;
+	margin-top:56px;
+	width: 425px;
+	height:auto;
+	font-size:14px;
+	font-weight:bold;
+	border-top:none;
+	text-decoration:none;
+}
+
+#postBtn
+{
+	padding:8px 30px 8px 30px; 
+	background:#FF9900;
+	color:#fff;
+	border:1px solid #eee;
+	border-radius:20px;
+	box-shadow:5px 5px 5px #eee;
+	cursor:pointer;
+	font-weight:bold;
+}
+#uploadBtn
+{
+        width: 100px;
+	height: 30px;
+	border: none;
+	background:url(images/login_btn.jpg);
+	color:#FFFFFF;
+	font-weight:bolder;
+	border: 1px solid #E29A2C;
+	margin: 0;
+	vertical-align: middle;
+	border-radius:12px;
+	cursor:pointer;
+}
+#showrequest
+{
+	position: absolute;
+	margin-left:870px;
+	margin-top:56px;
+      	width: 320px;
+	height:auto;
+	font-size:12px;
+	font-weight:bold;
+	border-top:none;
+	text-decoration:none;
+	left: 19px;
+}
+
+#addfriendbutton {
+border:2px groove #7c93ba;
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding: 5px 25px;
+background-color:#6b6dbb; /*required for browsers that don't support gradients*/
+background: -webkit-gradient(linear, left top, left bottom, from(#88add7), to(#6b6dbb));
+background: -webkit-linear-gradient(top, #88add7, #6b6dbb);
+background: -moz-linear-gradient(top, #88add7, #6b6dbb);
+background: -o-linear-gradient(top, #88add7, #6b6dbb);
+background: linear-gradient(top, #88add7, #6b6dbb);
+/*style to the text inside the button*/
+font-family:Andika, Arial, sans-serif; /*Andkia is available at http://www.google.com/webfonts/specimen/Andika*/
+color:#fff;
+font-size:1.1em;
+font-weight:bold;
+letter-spacing:.1em;
+font-variant:small-caps;
+/*give the corners a small curve*/
+-webkit-border-radius: 0 15px 15px 0;
+-moz-border-radius: 0 15px 15px 0;
+border-radius: 0 15px 15px 0;
+/*add a drop shadow to the button*/
+-webkit-box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+-moz-box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+}
+input#addfriendbutton:hover, input#addfriendbutton:focus
+{
+color:#edebda;
+/*reduce the spread of the shadow to give a pushed effect*/
+-webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+-moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+}
+
+#cancelrequest
+{
+border:2px groove #7c93ba;
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+padding: 3px 20px;
+background-color:#6b6dbb; /*required for browsers that don't support gradients*/
+background: -webkit-gradient(linear, left top, left bottom, from(#88add7), to(#6b6dbb));
+background: -webkit-linear-gradient(top, #88add7, #6b6dbb);
+background: -moz-linear-gradient(top, #88add7, #6b6dbb);
+background: -o-linear-gradient(top, #88add7, #6b6dbb);
+background: linear-gradient(top, #88add7, #6b6dbb);
+/*style to the text inside the button*/
+font-family:Andika, Arial, sans-serif;
+color:#fff;
+font-size:1.1em;
+font-weight:bolder;
+letter-spacing:.1em;
+font-variant:normal;
+/*give the corners a small curve*/
+-webkit-border-radius: 0 15px 15px 0;
+-moz-border-radius: 0 15px 15px 0;
+border-radius: 0 15px 15px 0;
+/*add a drop shadow to the button*/
+-webkit-box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+-moz-box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+box-shadow: rgba(0, 0, 0, .75) 0 2px 6px;
+}
+input#cancelrequest:hover, input#cancelrequest:focus
+{
+color:#edebda;
+/*reduce the spread of the shadow to give a pushed effect*/
+-webkit-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+-moz-box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+box-shadow: rgba(0, 0, 0, .25) 0 1px 0px;
+}
+
+#unfriend
+{
+    background-color:#006699;
+    color:#ffffff;
+    padding:5px;
+    border-radius:7px;
+    font-weight: bold;
+    font-size:small;
+}
+
+#learnzonefield
+{
+	width:600px;
+	height:30px;
+	border-radius:5px;
+}
+#uploadArticleBtn
+{
+	width: 120px;
+	height: 30px;
+	border: none;
+	background:url(images/login_btn.jpg);
+	color:#FFFFFF;
+	font-weight:bolder;
+	border: 1px solid #E29A2C;
+	margin: 0;
+	vertical-align: middle;
+	border-radius:12px;
+	cursor:pointer;
+}
+#commentBtn
+{
+    width:100px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    background:#FF9900;
+    color:#fff;
+    border:1px solid #eee;
+    border-radius:5px;
+    cursor:pointer;
+    font-weight:bold;
+    
+}
